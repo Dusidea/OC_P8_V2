@@ -254,7 +254,7 @@ footer {
   align-items: center;
 }
 
-.carousel-indicators [data-bs-target] {
+/* .carousel-indicators [data-bs-target] {
   background-color: rgba(0, 0, 0, 0.6);
   opacity: 1;
   border: 1px solid white;
@@ -274,7 +274,7 @@ footer {
 .carousel-control-next-icon:hover {
   background-color: rgba(0, 0, 0, 0.9);
   transform: scale(1.1);
-}
+} */
 
 @media all and (max-width: 1180px) {
   .picture {
