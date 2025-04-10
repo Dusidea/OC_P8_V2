@@ -102,7 +102,7 @@ nav a {
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
   color: #fff;
-  background-color: #beb45a;
+  background-color: black;
   border-radius: 0;
 }
 .nav-pills .nav-link {
@@ -252,6 +252,28 @@ footer {
   justify-content: center;
   flex-direction: column;
   align-items: center;
+}
+
+.carousel-indicators [data-bs-target] {
+  background-color: rgba(0, 0, 0, 0.6);
+  opacity: 1;
+  border: 1px solid white;
+  box-shadow: 0 0 2px white;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: rgba(0, 0, 0, 0.7);
+  border: 2px solid white;
+  border-radius: 50%;
+  padding: 15px;
+  transition: all 0.2s ease-in-out;
+}
+
+.carousel-control-prev-icon:hover,
+.carousel-control-next-icon:hover {
+  background-color: rgba(0, 0, 0, 0.9);
+  transform: scale(1.1);
 }
 
 @media all and (max-width: 1180px) {
